@@ -6,11 +6,11 @@ tags = ['hugo']
 authors = ['viridi']
 url = '0000'
 +++
-Create a new post for a new Hugo site (again).
+Create a new post for a new Hugo site (again) with minimum customization.
 
 <!--more-->
 
-Following are steps to be performed on Windows 11 in order to create a Hugo site and deploy it to GitHub.
+To create a Hugo site and deploy it to GitHub following steps are for Windows 11.
 
 1. Open File Explorer.
 2. Navigate to a drive or folder.
@@ -207,3 +207,9 @@ Following are steps to be performed on Windows 11 in order to create a Hugo site
 23. Click Configure on Hugo workflow.
 24. Edit as necessary and then click Commit changes..., the green button.
 25. Visit GitHub Pages [`https://dudung.github.io/bug2/`](https://dudung.github.io/bug2/).
+
+Futher information about customization Hugo template can be found [^lopez_2020].
+
+
+[^lopez_2020]: Pedro Lopez, "Creating a Hugo Theme From Scratch", Retrolog.io, 25 Jan 2020, url https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/ [20241011].
+ 
