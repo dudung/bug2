@@ -23,13 +23,12 @@
     {{ partial "footer.html" . }}
   </footer>
 
-  <!-- 20240111 support for Mermaid from Hugo Coder  -->
-  {{ if .HasShortcode "mermaid" }}
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"
-    integrity="sha256-QdTG1YTLLTwD3b95jLqFxpQX9uYuJMNAtVZgwKX4oYU=" crossorigin="anonymous"></script>
-  <script>
-    mermaid.initialize({ startOnLoad: true });
-  </script>
+  {{ if .Store.Get "hasMermaid" }}
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true });
+    </script>
   {{ end }}
+
 </body>
 </html>

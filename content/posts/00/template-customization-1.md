@@ -103,18 +103,23 @@ In previous post with title [first post again](../0000) customization is only in
         {{ partial "footer.html" . }}
       </footer>
 
-      <!-- 20240111 support for Mermaid from Hugo Coder  -->
-      {{ if .HasShortcode "mermaid" }}
-      <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"
-        integrity="sha256-QdTG1YTLLTwD3b95jLqFxpQX9uYuJMNAtVZgwKX4oYU=" crossorigin="anonymous"></script>
-      <script>
-        mermaid.initialize({ startOnLoad: true });
-      </script>
+      {{ if .Store.Get "hasMermaid" }}
+        <script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          mermaid.initialize({ startOnLoad: true });
+        </script>
       {{ end }}
     </body>
     </html>
     ```
-5. Create content of `content/authors/viridi/_index.md` as follow.
+5. Create content of `layouts/_default/_markup/render-codeblock-mermaid.html` as follow.
+    ```
+    <pre class="mermaid">
+      {{- .Inner | safeHTML }}
+    </pre>
+    {{ .Page.Store.Set "hasMermaid" true }}
+    ```
+6. Create content of `content/authors/viridi/_index.md` as follow.
     ```
     +++
     name = 'Sparisoma Viridi'
@@ -122,3 +127,10 @@ In previous post with title [first post again](../0000) customization is only in
     +++
     Sparisoma Viridi is granular physicist who likes doing programming.
     ```
+Without Step 6 for an author page, even when Step 1 is performed, the link will not be shown in a post. Step 4 is for including any partials by checking first the existance of the related shortcodes files. And support for Mermaid in Step 5 is performed using code block render hooks [^hugo_2024] instead of shortcodes [^pattekkat_2022].
+
+
+[^hugo_2024]: Hugo Authors, "Code block render hooks", Hugo, 14 Jun 2024, url https://gohugo.io/render-hooks/code-blocks/ [20241012].
+[^pattekkat_2022]: Navendu Pattekkat, "Adding Diagrams to Your Hugo Blog With Mermaid", Navendu.me, 26 Aug 2022, url https://navendu.me/posts/adding-diagrams-to-your-hugo-blog-with-mermaid/ [20241012].
+
+[^mchem_xxx]: url https://github.com/KaTeX/KaTeX/tree/main/contrib/mhchem [20241012].
