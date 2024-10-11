@@ -114,3 +114,11 @@ In previous post with title [first post again](../0000) customization is only in
     </body>
     </html>
     ```
+5. Create content of `content/authors/viridi/_index.md` as follow.
+    ```
+    +++
+    name = 'Sparisoma Viridi'
+    twitter = '@6unpnp'
+    +++
+    Sparisoma Viridi is granular physicist who likes doing programming.
+    ```
