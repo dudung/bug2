@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  
+  {{- range .Params.authors }}
+    {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+      <figure class='authors'>
+        <!--img src="{{ .Params.photo }}" alt=""/ -->
+        <figcaption>
+          <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+        </figcaption>
+      </figure>
+    {{ end }}
+  {{ end }}
+  
+  <div class='readingtimedate'>
+    {{ partial "reading-time.html" . }} &middot;
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  </div>
+  
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  
+  {{ partial "posts/math.html" . }}
+{{ end }}

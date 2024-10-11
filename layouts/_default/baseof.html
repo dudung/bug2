@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>
+    {{ partial "header.html" . }}
+    
+    {{ if .HasShortcode "blank/scatter" }}
+      {{ partial "script/inner.html" . }}
+      {{ partial "script/chartjs.html" . }}
+    {{ end }}
+
+    {{ if .HasShortcode "blank/svgpath" }}
+      {{ partial "script/inner.html" . }}
+    {{ end }}
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+
+  <!-- 20240111 support for Mermaid from Hugo Coder  -->
+  {{ if .HasShortcode "mermaid" }}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"
+    integrity="sha256-QdTG1YTLLTwD3b95jLqFxpQX9uYuJMNAtVZgwKX4oYU=" crossorigin="anonymous"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  {{ end }}
+</body>
+</html>
