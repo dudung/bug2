@@ -4,7 +4,7 @@ date = 2024-10-11T21:03:19+07:00
 draft = false
 tags = ['hugo']
 authors = ['viridi']
-url = '0001'
+url = '241023'
 +++
 First theme customization of a new Hugo site following initial setting.
 
