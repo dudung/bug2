@@ -2,9 +2,9 @@
 title = 'first post again'
 date = 2024-10-11T17:18:15+07:00
 draft = false
-tags = ['hugo']
+tags = ['bug2', 'hugo']
 authors = ['viridi']
-url = '0000'
+url = '24j14'
 +++
 Create a new post for a new Hugo site (again) with minimum customization.
 

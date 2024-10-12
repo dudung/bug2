@@ -5,7 +5,7 @@ draft = false
 math = true
 tags = ['radioactivity', 'half-life', 'euler']
 authors = ['viridi']
-url = '2127'
+url = '24j02'
 +++
 Relation between half-life and time step<!--more-->
 
@@ -20,7 +20,7 @@ $$\tag{1}
 \lambda = \frac{\ln 2}{T_\frac12}
 $$
 
-from [half-life and decay constant](../2128) relation. 
+from [half-life and decay constant](../24j03) relation. 
 
 Since Euler method is derived from the simple forward difference expression [^brorson_2022], following relation between [half-time and time step](../2118)
 

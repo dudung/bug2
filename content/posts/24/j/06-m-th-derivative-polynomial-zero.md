@@ -5,7 +5,7 @@ draft = false
 math = true
 tags = ['derivative', 'polynomial']
 authors = ['viridi']
-url = '2131'
+url = '24j06'
 +++
 $m$-th derivative of a polynomial function at $x=0$<!--more-->
 

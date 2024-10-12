@@ -5,7 +5,7 @@ draft = false
 math = true
 tags = ['maclaurin', 'polynomial']
 authors = ['viridi']
-url = '2130'
+url = '24j05'
 +++
 An example of Maclaurin series<!--more-->
 
@@ -31,7 +31,7 @@ $$\tag{3}
 f^m(0) = m! \ a_m,
 $$
 
-from $m$-th [derivative of a polynomial](../2131) at $x=0$. Substitute Eqn (3) into Eqn (2) will give
+from $m$-th [derivative of a polynomial](../24j06) at $x=0$. Substitute Eqn (3) into Eqn (2) will give
 
 $$
 g(x) = \sum_{i=0}^n \frac{1}{i!} \ ( i! \ a_i ) \ x^i = \sum_{i=0}^n a_i x^i,

@@ -3,9 +3,9 @@ title = 'index.html hugo code 3'
 date = 2024-10-06T20:25:00+07:00
 draft = false
 math = true
-tags = ['hugo', 'index-html']
+tags = ['bug', 'hugo', 'index-html']
 authors = ['viridi']
-url = '2129'
+url = '24j04'
 +++
 List of modifications of `index.html` in a Hugo site<!--more-->
 

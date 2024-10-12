@@ -2,9 +2,9 @@
 title = 'template customization 1'
 date = 2024-10-11T21:03:19+07:00
 draft = false
-tags = ['hugo']
+tags = ['bug2', 'hugo']
 authors = ['viridi']
-url = '241023'
+url = '24j15'
 +++
 First theme customization of a new Hugo site following initial setting.
 

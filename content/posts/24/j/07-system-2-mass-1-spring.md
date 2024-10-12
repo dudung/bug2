@@ -5,7 +5,7 @@ draft = false
 math = true
 tags = ['spring-mass']
 authors = ['viridi']
-url = '2132'
+url = '24j07'
 +++
 System of two mass and one spring<!--more-->
 

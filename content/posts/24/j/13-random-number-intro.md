@@ -5,7 +5,7 @@ draft = false
 math = true
 tags = ['tbr']
 authors = ['viridi']
-url = '2138'
+url = '24j13'
 +++
 Brief intro to random number and with Python<!--more-->
 
