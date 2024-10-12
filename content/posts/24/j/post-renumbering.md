@@ -17,7 +17,7 @@ Format is `yympp` with
 
 In order to do that some posts from [bug](https://dudung.github.io/bug/) are listed as follow with previous number and new number.
 
-No &nbsp;&nbsp; | File | Date | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Old url\* | &nbsp;&nbsp;&nbsp;New url
+No &nbsp;&nbsp; | File | Date | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Old url\* | &nbsp;&nbsp;&nbsp;New url\*\*
 :-: | :- | :- | :-: | :-:
 01 | half-life-with-forward-fd.md       | 2024-08-30T21:47:00+07:00 | [2118](https://dudung.github.io/bug/2118) | -- (24h??)
 02 | day-2-in-a-sawit-event.md          | 2024-10-04T08:40:00+07:00 | [2125](https://dudung.github.io/bug/2125) | [24j00](https://dudung.github.io/bug2/24j00)
@@ -38,6 +38,6 @@ No &nbsp;&nbsp; | File | Date | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Old url\* | &nbsp;
 17 | template-customization-1.md        | 2024-10-11T21:03:19+07:00 | 241023 | [24j15](https://dudung.github.io/bug2/24j15)
 18 | post-renumbering.md                | 2024-10-12T16:43:14+07:00 | 24j11  | [24j16](https://dudung.github.io/bug2/24j16)
 
-\*In [bug](https://dudung.github.io/bug/).
+\*In [bug](https://dudung.github.io/bug/), \*\* in bug2.
 
 ..
