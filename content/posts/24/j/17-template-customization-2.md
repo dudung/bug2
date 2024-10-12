@@ -203,6 +203,63 @@ Modification of `main.css` and `hugo.toml` files are given here to complement pr
     table tr:nth-child(even) {
       background-color: #f2f2f2; /* Light gray for odd rows */
     }
+    
+    .homepage-posts-box {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 8px;
+      width: auto;
+      height: auto;
+      text-align: left;
+      word-break: break-all;
+      margin: 2px 0px;
+      font-size: 90%;
+      background: #f4f4f4;
+      border: 1px solid #ccc;
+    }
+    .posts-box-container {
+      text-align: left;
+    }
+    ```
+3. Create `content/_index.md` as follow.
+    ```
+    bytes und grains to bridge understanding gap
+    ```
+4. Create `layouts/index.html` as follow.
+    ```
+    {{ define "main" }}
+      <main aria-role="main">
+        <header class="homepage-header">
+          
+          {{ with .Params.subtitle }}
+            <span class="subtitle">{{ . }}</span>
+          {{ end }}
+        </header>
+        <div class="homepage-content">
+          <!-- Note that the content for index.html,
+          as a sort of list page, will pull from
+          content/_index.md -->
+          {{ .Content }}
+        </div>
+        
+        {{ $max := len .Site.RegularPages }}
+        {{ $index :=  sub $max 1 }}
+        
+        <div class="posts-box-container">
+          {{ range .Site.RegularPages }}
+          
+            <div class="homepage-posts-box">
+              <code>
+                {{ dateFormat "02-Jan-2006" .Date }}
+              </code><br>
+              <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            </div>
+          
+            {{ $index = sub $index 1 }}
+          {{ end }}
+        </div>
+        
+    {{ end }}
     ```
 
 The CSS is from [bug](https://dudung.github.io/bug) and only slightly modified. Some comments and commented styles are still there. Following additional part
@@ -218,4 +275,25 @@ nav {
 }
 ```
 
-is for menu, Tags and Home, on the right top of each page.
+is for menu, Tags and Home, on the right top of each page. And
+
+```css
+.homepage-posts-box {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+  text-align: left;
+  word-break: break-all;
+  margin: 2px 0px;
+  font-size: 90%;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+}
+.posts-box-container {
+  text-align: left;
+}
+```
+
+for list of posts in the landing page. Notice also that content of `_index.md` will be included to `index.html` in the `{{ .Content }}`.
