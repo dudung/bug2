@@ -15,6 +15,7 @@ The library butiran has been developed, first in JavaScript [^viridi_2023a] and 
 Following are notes produced in redeveloping butiran. Some might not be really related, but necessary.
 
 + [Gravitation force](../24j19).
++ [Electric force](../24j20).
 
 This page will serve as entry post in this site for other posts related to the project.
 
