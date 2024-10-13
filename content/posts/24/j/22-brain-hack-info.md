@@ -11,7 +11,7 @@ Some infos about brain hack obtained this morning
 
 <!--more-->
 
-I do not really know about what brain hack is? This morning I find a YouTube video at TEDxHobart with title "6 secrets to learning faster, backed by neuroscience" presented by Lila Landowski [^landowski_2023]. There is definition about it, which is techniques and/or technologies to affect an individual’s mental state, cognitive processes or level of function, that may be intentionally applied by individual or by employers [^wigmore_2018]. Notice that there are long-term consequences of this technology that are not properly established [^khan_2019].
+Actually, I do not really know about what brain hack is. This morning I find a YouTube video at TEDxHobart with title "6 secrets to learning faster, backed by neuroscience" presented by Lila Landowski [^landowski_2023]. There is definition about it, which is techniques and/or technologies to affect an individual’s mental state, cognitive processes or level of function, that may be intentionally applied by individual or by employers [^wigmore_2018]. Notice that there are long-term consequences of this technology that are not properly established [^khan_2019].
 
 I will watch it after arriving at the office, a technical institute or university, since it is about 18 minutes video. Now is 0514 and have to take someone to school.
 
