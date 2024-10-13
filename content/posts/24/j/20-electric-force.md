@@ -60,7 +60,7 @@ as electric field produced by charge $q_j$ experienced by another charge in the 
 **Challenge 1**. Show the steps to obtained Eqn (6) from Eqns (1) and (2). If necessary use also Eqns (3) and (5).
 
 
-[^bhuyan_2023]: Satyam Bhuyan, "Electrostatic force", 17 Feb 2023, url https://www.sciencefacts.net/electrostatic-force.html [20241013].
+[^bhuyan_2023]: Satyam Bhuyan, "Electrostatic force", Science Fatct, 17 Feb 2023, url https://www.sciencefacts.net/electrostatic-force.html [20241013].
 [^fitzpatrick_2006]: Richard Fitzpatrick, "The Lorentz force", Classical Electromagnetism: An intermediate level course, The University of Texas at Austin, 2 Feb 2006, url https://farside.ph.utexas.edu/teaching/em/lectures/node33.html [20241013].
 [^gpt4o_2024]: GPT-4o, "Electrostatic vs Electric Force", ChatGPT, 13 Oct 2024, url https://chatgpt.com/share/670b81e1-7070-800a-a252-9607338937ca [20241013].
 [^nave_2017]: Carl Rod Nave, "Coulomb's Law: Like charges repel, unlike charges attract", HyperPhysics, Aug 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/electric/elefor.html [20241013].
