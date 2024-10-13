@@ -18,7 +18,7 @@ Following are notes produced in redeveloping butiran. Some might not be really r
 + [Electric force](../24j20).
 + [Spring force](../24j21).
 
-This page will serve as entry post in this site for other posts related to the project.
+This page will serve as entry note in this site for other notes related to the project.
 
 
 [^viridi_2022]: Sparisoma Viridi, "butiran py", bugx, 13 Sep 2022, url https://dudung.github.io/bugx/0179/ [20241013].
