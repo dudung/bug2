@@ -57,6 +57,8 @@ $$
 
 as gravitational field produced by mass $m_j$ experienced by another mass in the surrounding of mass $m_j$.
 
+**Challenge 1**. Show the steps to obtained Eqn (6) from Eqns (1) and (2). If necessary use also Eqns (3) and (5).
+
 
 [^bridge_2017]: Simon Bridge, "Why is there a minus sign in front of the vector form of Newton's law of universal gravitation?", Quora, 27 Sep 2017, url https://qr.ae/p2UWj1 [20241013].
 [^henderson_2022]: Tom Henderson, Trevor Fayas, "Newton's Law of Universal Gravitation", The Physics Class Room, Jul 2022, url https://www.physicsclassroom.com/class/circles/lesson-3/newton-s-law-of-universal-gravitation [20241013].
