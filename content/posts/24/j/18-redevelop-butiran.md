@@ -12,9 +12,11 @@ Evaluate butiran and redevelop it again with additional force representing surfa
 
 The library butiran has been developed, first in JavaScript [^viridi_2023a] and later in Python [^viridi_2022], but both are stucked. Now it is time to evaluate it and redevelop it with mix programming languange and other software. If still in JS put the code in CodePen might be considered [^viridi_2023b], since it is easier than hosted on GitHub.
 
-+ [Gravitation force](../24j19)
+Following are notes produced in redeveloping butiran. Some might not be really related, but necessary.
 
-This page will serve as entry post in this site for other posts related to this project.
++ [Gravitation force](../24j19).
+
+This page will serve as entry post in this site for other posts related to the project.
 
 
 [^viridi_2022]: Sparisoma Viridi, "butiran py", bugx, 13 Sep 2022, url https://dudung.github.io/bugx/0179/ [20241013].
