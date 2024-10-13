@@ -16,7 +16,7 @@ The attraction or repulsion force between two charged particles is known as elec
 Charge $q_i$ will experience electric force
 
 $$\tag{1}
-\vec{Q}_i = q_i \vec{E}
+\vec{F} _{E,i} = q_i \vec{E}
 $$
 
 in electric field $\vec{E}$, where source of electric field is atually another charge or charge distribution.

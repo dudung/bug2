@@ -16,7 +16,7 @@ When we talk about force between two masses at distance some terms come up, such
 Mass $m_i$ will experience gravitational force
 
 $$\tag{1}
-\vec{G}_i = m_i \vec{g}
+\vec{F} _{G,i} = m_i \vec{g}
 $$
 
 in gravitational field $\vec{g}$, where source of gravitational field is atually another mass or mass distribution.
@@ -24,7 +24,7 @@ in gravitational field $\vec{g}$, where source of gravitational field is atually
 Mass $m_i$ will experimence gravitational force
 
 $$\tag{2}
-\vec{G} _{ij} = -k_G \frac{m_i m_j}{r _{ij}^2} \hat{r} _{ij}
+\vec{F} _{G,ij} = -G \frac{m_i m_j}{r _{ij}^2} \hat{r} _{ij}
 $$
 
 due to existence of other mass $m_j$, where position of mass $m_i$ is $\vec{r}_i$ and position of mass $m_j$ is $\vec{r}_j$.
@@ -52,7 +52,7 @@ is the unit vector.
 From Eqns (1) and (2) it can be obtained
 
 $$\tag{6}
-\vec{g}_j(\vec{r}) = -k_G \frac{m_j}{|\vec{r} - \vec{r}_j|^3} (\vec{r} - \vec{r}_j)
+\vec{g}_j(\vec{r}) = -G \frac{m_j}{|\vec{r} - \vec{r}_j|^3} (\vec{r} - \vec{r}_j)
 $$
 
 as gravitational field produced by mass $m_j$ experienced by another mass in the surrounding of mass $m_j$.
