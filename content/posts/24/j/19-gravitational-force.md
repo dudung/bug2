@@ -19,7 +19,7 @@ $$\tag{1}
 \vec{G}_i = m_i \vec{g}
 $$
 
-in gravitational field $\vec{g}$, where source of gravitational field is catually another mass or another mass distribution.
+in gravitational field $\vec{g}$, where source of gravitational field is atually another mass or mass distribution.
 
 Mass $m_i$ will experimence gravitational force
 
