@@ -21,7 +21,7 @@ $$
 
 in gravitational field $\vec{g}$, where source of gravitational field is atually another mass or mass distribution.
 
-Mass $m_i$ will experimence gravitational force
+Mass $m_i$ will experience gravitational force
 
 $$\tag{2}
 \vec{F} _{G,ij} = -G \frac{m_i m_j}{r _{ij}^2} \hat{r} _{ij}
@@ -29,7 +29,7 @@ $$
 
 due to existence of other mass $m_j$, where position of mass $m_i$ is $\vec{r}_i$ and position of mass $m_j$ is $\vec{r}_j$.
 
-Relative position of mass $m_i$ from $m_j$ is
+Relative position of mass $m_i$ from mass $m_j$ is
 
 $$\tag{3}
 \vec{r} _{ij} = \vec{r}_i - \vec{r}_j,

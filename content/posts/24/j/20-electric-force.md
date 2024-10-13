@@ -21,6 +21,43 @@ $$
 
 in electric field $\vec{E}$, where source of electric field is atually another charge or charge distribution.
 
+Charge $q_i$ will experience electric force
+
+$$\tag{2}
+\vec{F} _{E,ij} = -k \frac{q_i q_j}{r _{ij}^2} \hat{r} _{ij}
+$$
+
+due to existence of other charge $q_j$, where position of charge $q_i$ is $\vec{r}_i$ and position of charge $q_j$ is $\vec{r}_j$.
+
+Relative position of charge $q_i$ from charge $q_j$ is
+
+$$\tag{3}
+\vec{r} _{ij} = \vec{r}_i - \vec{r}_j,
+$$
+
+distance between two charges is
+
+$$\tag{4}
+r_{ij} = |\vec{r} _{ij}| = \sqrt{\vec{r} _{ij} \cdot \vec{r} _{ij}},
+$$
+
+and 
+
+$$\tag{5}
+\hat{r} _{ij} = \frac{\vec{r} _{ij}}{r _{ij}}
+$$
+
+is the unit vector.
+
+From Eqns (1) and (2) it can be obtained
+
+$$\tag{6}
+\vec{E}_j(\vec{r}) = -k \frac{q_j}{|\vec{r} - \vec{r}_j|^3} (\vec{r} - \vec{r}_j)
+$$
+
+as electric field produced by charge $q_j$ experienced by another charge in the surrounding of charge $q_j$.
+
+**Challenge 1**. Show the steps to obtained Eqn (6) from Eqns (1) and (2). If necessary use also Eqns (3) and (5).
 
 
 [^bhuyan_2023]: Satyam Bhuyan, "Electrostatic force", 17 Feb 2023, url https://www.sciencefacts.net/electrostatic-force.html [20241013].
