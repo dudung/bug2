@@ -49,7 +49,7 @@ $$
 
 is the unit vector.
 
-From Eqn (1) and (2) it can be obtained
+From Eqns (1) and (2) it can be obtained
 
 $$\tag{6}
 \vec{g}_j(\vec{r}) = -k_G \frac{m_j}{|\vec{r} - \vec{r}_j|^3} (\vec{r} - \vec{r}_j)
