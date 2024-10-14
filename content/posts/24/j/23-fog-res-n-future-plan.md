@@ -20,4 +20,4 @@ Notes with further details might be available but not public.
 
 [^carvajal_2020]: Danilo Carvajal, Luis Silva-Llanca, Dante Larraguibel, Bastián González, "On the aerodynamic fog collection efficiency of fog water collectors via three-dimensional numerical simulations", Atmospheric Research, vol 245, p 105123, 15 November 2020, url https://doi.org/10.1016/j.atmosres.2020.105123.
 [^daad_2024]: -, "In-Country/In-Region Scholarship Programme", DAAD, 9 Oct 2024, url https://bit.ly/DAADScholarshipProgram [20241014].
-[^dzikra_2021]: Afidah Dzikra, "Simulasi Perhitungan Nilai Efisiensi dan Analisis Parameter pada Proses Penangkapan Air Kabut Menggunakan Raschel Mesh", Thesis Magister, Institut Teknologi Bandung, Indonesia, 2021, url https://digilib.itb.ac.id/gdl/view/52084 [20241014].
+[^dzikra_2021]: Afidah Dzikra, "Simulasi Perhitungan Nilai Efisiensi dan Analisis Parameter pada Proses Penangkapan Air Kabut Menggunakan Raschel Mesh", Naster Thesis, Institut Teknologi Bandung, Indonesia, 2021, url https://digilib.itb.ac.id/gdl/view/52084 [20241014].
