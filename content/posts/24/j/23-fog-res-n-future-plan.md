@@ -6,14 +6,14 @@ tags = ['fog', 'alumni']
 authors = ['viridi']
 url = '24j23'
 +++
-Unfinished research discussion about fog harvesting and future plan.
+Unfinished research discussion about fog harvesting and future plan
 
 <!--more-->
 
 This only entry note documenting work performed by Afidah Dzikra in the Master Program in Computational Science under supervision of Prof. Dra. Premana Wardayanti Premadi, Ph.D. and me. Following are activities related (and not so related) to the project.
 
 - `19-sep-2024` Discussion about reopening unfinished research related to fog harvesting [^dzikra_2021] and sharing a reference to be read [^carvajal_2020].
-- `14-oct-2024` Asynchronous discussion via WA for 2025 DAAD scholarshp opportunity [^daad_2024]
+- `14-oct-2024` Asynchronous discussion via WA for 2025 DAAD scholarshp opportunity [^daad_2024]. [`h84j6`](https://osf.io/h84j6)
 
 Notes with further details might be available but not public.
 
