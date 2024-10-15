@@ -181,3 +181,5 @@ is for Data-1 series and
 is for Data-2 series.
 
 **Challenge 1**. Generate three data blocks and create a scatter plot with main color red, green, blue for each series.
+
+**Challenge 2**. Draw series only with marker but without lines connecting two adjacent markes.
