@@ -7,7 +7,7 @@
   <header>
     {{ partial "header.html" . }}
     
-    {{ if .HasShortcode "blank/scatter" }}
+    {{ if .HasShortcode "scatter" }}
       {{ partial "script/inner.html" . }}
       {{ partial "script/chartjs.html" . }}
     {{ end }}
