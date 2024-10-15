@@ -11,10 +11,6 @@
       {{ partial "script/inner.html" . }}
       {{ partial "script/chartjs.html" . }}
     {{ end }}
-
-    {{ if .HasShortcode "blank/svgpath" }}
-      {{ partial "script/inner.html" . }}
-    {{ end }}
   </header>
   <main>
     {{ block "main" . }}{{ end }}
