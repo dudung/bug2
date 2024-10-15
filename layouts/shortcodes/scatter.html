@@ -1,0 +1,55 @@
+{{ $w := default "80" (.Get 0) }}
+{{ $h := default "300" (.Get 1) }}
+{{ $r := ( .Inner | chomp) }}
+{{ $seed := "foo" }}
+{{ $id := delimit (shuffle (split (md5 $seed) "" )) "" }}
+
+<div style="width: {{ $w }}%; height: {{ $h }}px; margin: 0 auto">
+    <canvas id="{{ $id }}"></canvas>
+</div>
+
+
+<script>
+var r = {{ ( .Inner | chomp) }};
+var eol = getEOL(r);
+var blocks = getBlocks(r, eol);
+var params = getParams(blocks.shift());
+var B_SERIES = [];
+for(b of blocks) {
+  var d = block2data(b, eol);
+  B_SERIES.push(d);
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script type="text/javascript">
+    var ctx = document.getElementById('{{ $id }}')
+      .getContext('2d');
+    
+    var config = {
+      type: 'scatter',
+      data: { datasets: datasets4Scatter(B_SERIES) },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            type: 'linear',
+            position: 'bottom',
+            title: {
+              display: true,
+              text: B_XLABEL
+            }
+          },
+          y: {
+            title: {
+              display: true,
+              text: B_YLABEL
+            }
+          }
+        }
+      }
+    };
+    
+    new Chart(ctx, config);
+</script>
