@@ -24,5 +24,9 @@ Current folder structure is as follow
 + 09_reimbursement_try_1
   - Finish information and attachment upload to faculty and document it.
   - Sparisoma Viridi, "Research reimbursement system: A faculty research  grant on composite", OSF, 18 Oct 2024, url https://osf.io/8zjgc [20241018].
++ 10_pit_fmb \
+Pengaruh Kecepatan Tarikan pada Hasil Pengukuran Uji Tarik Kertas HVS (AFJ, WD, SV, TD)
+  - Abstract `1719754106.pdf` [`epjxz`](https://osf.io/epjxz)
+  - Slide `Oral_150295_Biofisika.pdf` [`r6h4m`](https://osf.io/r6h4m)
 
 that might be subject to change.
