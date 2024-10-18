@@ -22,5 +22,7 @@ Current folder structure is as follow
 + 07_component_buying
 + 08_info_reimbursement
 + 09_reimbursement_try_1
+  - Finish information and attachment upload to faculty and document it.
+  - Sparisoma Viridi, "Research reimbursement system: A faculty research  grant on composite", OSF, 18 Oct 2024, url https://osf.io/8zjgc [20241018].
 
 that might be subject to change.
