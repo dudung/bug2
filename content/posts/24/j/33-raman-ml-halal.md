@@ -2,7 +2,7 @@
 title = 'raman ml halal'
 date = 2024-10-18T14:49:21+07:00
 draft = false
-tags = ['user']
+tags = ['users']
 authors = ['viridi']
 url = '24j33'
 +++
