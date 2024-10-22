@@ -12,6 +12,8 @@ Initial discussion with a company about some possibillities for research collabo
 
 It narrows to two topics, which are Raman spectroscopy-based corrosion and halal detections. Es ist die Mitra Djamal AG. There might be related references, e.g. a review about monitoring for oil and gas under deposit corrotions [^sliem_2021], a review about corrosion of steel reinforcement in concrete study using Raman spectroscopy [^mi_2023], and the use of Raman spectroscopy to obtain corrosion rate and corrosion product characterisation [^criado_2013]. There is also question how to use Raman spectroscopy in measuring molecular height, which is possible [^debye_1947].
 
+Next step is to exchange information from university to industry about preparation of a proposal with next week deadline, end of Oct 2022. [`krd5g`](https://osf.io/krd5g)
+
 
 [^debye_1947]: P. Debye, "Molecular-weight determination by light scattering", The Journal of Physical Chemistry, vol 51, no 1, pp 18-32, Jan 1947, url https://doi.org/10.1021/j150451a002.
 [^criado_2013]: M. Criado, S. Martínez-Ramirez, S. Fajardo, P. P. Gómez, J. M. Bastidas, "Corrosion rate and corrosion product characterisation using  Raman spectroscopy for steel embedded in chloride polluted  fly ash mortar", Materials and Corrosion, vol 64, no 5, pp 372-380, May 2013, url https://doi.org/10.1002/maco.201206714. [`knfev`](https://osf.io/knfev)
